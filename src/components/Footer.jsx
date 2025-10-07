@@ -14,7 +14,7 @@ const Footer = () => {
       <FontLink />
 
       {/* Newsletter Section */}
-      <section className="py-[60px] px-5 bg-black text-white text-center font-['Playfair_Display','Libre_Baskerville',serif]">
+      <section className="py-[60px] px-5 bg-white text-black text-center font-['Playfair_Display','Libre_Baskerville',serif]">
         <div className="max-w-[600px] mx-auto">
           <h2 className="text-[2.5rem] mb-4">Stay Updated 🎀</h2>
           <p className="text-[1.2rem] mb-[30px] opacity-90">
@@ -26,7 +26,7 @@ const Footer = () => {
               placeholder="Enter your email"
               className="flex-1 py-[15px] px-5 rounded-full text-[1rem] outline-none border-none font-['Playfair_Display','Libre_Baskerville',serif]"
             />
-            <button className="bg-white text-black font-semibold py-[15px] px-[30px] rounded-full text-[1rem] transition-all duration-300 hover:bg-gradient-to-br hover:from-white hover:to-gray-100 hover:text-black hover:-translate-y-[2px] hover:shadow-[0_8px_25px_rgba(255,255,255,0.3)]">
+            <button className="bg-white text-black font-semibold py-[15px] px-[30px] rounded-full text-[1rem] transition-all duration-300 hover:bg-black hover:text-white border border-black max-[1024px]:w-full">
               Subscribe
             </button>
           </div>
